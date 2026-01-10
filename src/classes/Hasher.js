@@ -7,9 +7,9 @@ import {
 	u64int,
 	words_from_little_endian_bytes,
 	bitwiseShift
-} from "../util";
-import ChunkState from "./ChunkState";
-import Output from "./Output";
+} from "../util.js";
+import ChunkState from "./ChunkState.js";
+import Output from "./Output.js";
 
 const BLOCK_LEN = intu32(64);
 const KEY_LEN = 32;

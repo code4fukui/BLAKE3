@@ -4,9 +4,9 @@ import {
 	intu64,
 	intu32,
 	or
-} from "../util";
-import compress from "./compress";
-import Output from "./Output";
+} from "../util.js";
+import compress from "./compress.js";
+import Output from "./Output.js";
 
 const CHUNK_START = intu32(1 << 0);
 const CHUNK_END = intu32(1 << 1);

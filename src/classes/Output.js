@@ -1,11 +1,11 @@
-import compress from "./compress";
+import compress from "./compress.js";
 import {
 	first_8_words,
 	or,
 	intu32,
 	intu64,
 	little_endian_bytes_from_words
-} from "../util";
+} from "../util.js";
 
 const ROOT = intu32(1 << 3);
 

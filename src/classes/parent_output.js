@@ -1,5 +1,5 @@
-import Output from "./Output?test=1";
-import { intu64, or, intu32 } from "../util?test=1";
+import Output from "./Output.js";
+import { intu64, or, intu32 } from "../util.js";
 
 const BLOCK_LEN = intu32(64);
 const PARENT = intu32(1 << 2);

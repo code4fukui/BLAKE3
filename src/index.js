@@ -1,2 +1,3 @@
-const Hasher = require("./classes/Hasher");
-module.exports = Hasher.default;
+import Hasher from "./classes/Hasher.js";
+
+export default Hasher;

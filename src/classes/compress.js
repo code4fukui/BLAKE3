@@ -5,7 +5,7 @@ import {
 	intu32,
 	wrappingAdd,
 	rotateRight
-} from "../util";
+} from "../util.js";
 
 export function g(state, a, b, c, d, mx, my) {
 	state[a] = wrappingAdd(wrappingAdd(state[a], state[b]), mx);
