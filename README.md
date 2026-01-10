@@ -1,6 +1,6 @@
 # BLAKE3.js
 
-Pure JavaScript implementation of BLAKE3 forked [rvgrinsven/blake3-js](https://github.com/rvgrinsven/blake3-js)
+Pure JavaScript implementation of [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs) forked [rvgrinsven/blake3-js](https://github.com/rvgrinsven/blake3-js)
 
 ## Usage
 
