@@ -1,6 +1,8 @@
 # BLAKE3.js
 
-Pure JavaScript implementation of [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs) forked [rvgrinsven/blake3-js](https://github.com/rvgrinsven/blake3-js)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+Pure JavaScript implementation of [BLAKE3](https://github.com/BLAKE3-team/BLAKE3-specs) forked from [rvgrinsven/blake3-js](https://github.com/rvgrinsven/blake3-js).
 
 ## Usage
 
@@ -21,3 +23,7 @@ deno test -A BLAKE3.test.js
 
 - Performance is bad, many opportunities to improve this.
   (Will switch to typed arrays for the u32 data type which should improve this a bit)
+
+## License
+
+This project is licensed under the Apache License, Version 2.0.
